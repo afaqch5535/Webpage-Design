@@ -1,0 +1,267 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+ .main{
+    width: 100% ;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+ }
+ .navbar{
+width: 1200 px;
+height: 75 px;
+margin: auto;
+
+ }
+ .icon{
+    width: 200 px;
+    float: left;
+    height: 70 px;
+ }
+ .logo{
+    color: rgb(255, 255, 0);
+    font-size:  35 px;  
+    font-family: Arial;
+    padding-left: 20 px;
+    float: left;
+    padding-top: 20 px; 
+ }
+ .logo span{
+   font-size: 50px;
+ }
+ h2{
+   padding-left: 50px;
+   padding-top: 25px;
+ }
+ .menu{
+    width: 400 px;
+    float: left;
+    height: 70px;
+ }
+ ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-top:45px;
+ }
+ ul li{
+    list-style: none;
+    margin-left: 62 px;
+    margin-top: 27 px;
+    font-size: 14px;
+    padding: 0px;
+    padding-left: 30px;
+    
+ }
+ ul li a{
+   text-decoration: none;
+   color: white;
+   font-family: Arial;
+   font-weight: bold;
+   transition: 0.4 ease-in-out;
+   
+ }
+ ul li a:hover{
+   color: yellow;
+   
+ }
+ .search{
+   width: 400px;
+   float: left;
+   margin-left: 300px;
+   padding-top: 10px;
+
+ } 
+ .srch{
+   font-family:'Times New Roman' ;
+   width: 200px;
+   height: 40px;
+   background:transparent;
+   border: 1px solid yellow;
+   margin-top: 13px;
+   color:white;
+  border-right: none;
+   font-size: 16px;
+   float: left;
+   padding: 10px;
+   border-bottom-left-radius: 5px;
+  
+   border-top-left-radius: 5px;
+
+ }
+ .btn{
+   width: 100px;
+   height: 40px;
+   background:yellow;
+   border: 2px solid yellow;
+   border-left: none;
+   margin-top: 13px;
+  
+   color: black;
+   font-size: 15px;
+   
+    border-bottom-right-radius: 5px;
+   
+   border-top-right-radius: 5px;
+   cursor: pointer;
+   
+ }
+ .btn:hover{
+   background-color:rgba(233, 233, 10, 0.674);
+ }
+ .btn:focus{
+   outline: none;
+ }
+ .srch:focus{
+   outline: none;
+ }
+.content{
+width: 1200px;
+height: auto;
+float: left;
+margin-left: 30px;
+color: white;
+position:relative;  
+padding-top: 100px;
+}
+.content .par{
+   padding-left: 20px;
+   padding-bottom: 25px;
+   font-family: Arial;
+   letter-spacing: 1.2px;
+   line-height: 30px;
+}
+.content h1{
+   font-family: Arial;
+   font-size: 30px;
+   padding-left: 20px;
+   letter-spacing: 2px;
+}
+.content .cn{
+   width: 160px;
+   height: 40px;
+   background: yellow;
+   border: none;
+   margin-bottom: 10px;
+   margin-left: 20px;
+   font-size: 18px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.content .cn a{
+   text-decoration: none;
+   color: black;
+   transition: 0.3 ease;
+}
+.cn:hover{
+   background-color: white;
+}
+.content span{
+   color: rgb(167, 180, 140);
+   font-size: 40px;
+}
+.form{
+   width: 250px;
+   height: 300px;
+   background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+   margin-top:-25%;
+   float: right;
+   border-radius: 10px;
+   padding:5%;
+   top: -22px;
+   left: 870px;
+}
+.form h2{
+   width: 220px;
+   font-family: sans-serif;
+   text-align: center;
+   color: yellow;
+   font-size: 22px;
+   background-color:black;
+   border-radius: 10px;
+   margin: 2px;
+   padding: 8px;
+}
+.form input{
+   width: 240px;
+   height:35px;
+   background: transparent;
+   border-bottom: 1px solid yellow;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   color:red;
+   font-size: 15px;
+   letter-spacing: 1px;
+   margin-top: none;
+   font-family: sans-serif;
+
+}
+.form input :focus{
+   outline: none;
+}
+::placeholder{
+   color: yellow;
+   font-family: Arial;
+}
+.btnn{
+   width: 240px;
+   height: 40px;
+   background: yellow;
+   border: none;
+   margin-top: 30px;
+   font-size: 18px;
+   border-radius: 10px;
+cursor: pointer;
+color: white;
+
+
+}
+.btnn:hover{
+   background: white;
+   color: yellow;
+}
+
+.btnn a{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+   text-decoration: none;
+   color: yellow;
+}
+.liw{
+   padding-top: 15px;
+   padding-bottom: 10px;
+   text-align: center;
+}
+.icon a{
+   text-decoration: none;
+   color:black;
+}
+.icon ion-icon{
+   color:white;
+   font-size: 30px;
+   padding-left: 14px;
+   padding-top:5px ;
+  transition: 0.3s ease;
+
+}
+.icon ion-icon:hover{
+   color: yellow;
+}
+
+
+  
+ 
