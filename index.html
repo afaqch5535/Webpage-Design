@@ -3,6 +3,14 @@
    
     <title>Webpage Design</title>
  <link rel="stylesheet" href="style.css">
+ <script src="j query.js"></script>
+ <script>
+    $(document).ready(function(){
+      $(".btnn").click(function(){
+        $(".logo").css("color", " red"); 
+      });
+    });
+    </script>
 </head>
 
 <body>
@@ -21,7 +29,7 @@
                 </ul>
             </div>
             <div class="search">
-            <input class="srch" type="search" name "" placeholder="Search or Enter Text">
+            <input class="srch" type="search" name  placeholder="Search or Enter Text">
             <a href="#"><button class="btn">Search</button></a>
             
 
@@ -34,7 +42,7 @@
 
             <div class="form">
                 <h2>Login Here</h2>
-                <input type="search" name "" placeholder="Enter Your Name">
+                <input type="search" name placeholder="Enter Your Name">
                 <input type="email" name="email" placeholder="Enter Your Email">
                 <button class="btnn"><a href="#">Login</a></button>
                 <p class="link">Dont have an account<br>

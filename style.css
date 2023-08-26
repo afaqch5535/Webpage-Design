@@ -4,7 +4,7 @@
 }
  .main{
     width: 100% ;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(3.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(4.jpg);
     background-position: center;
     background-size: cover;
     height: 109vh;
@@ -21,7 +21,7 @@ margin: auto;
     height: 70 px;
  }
  .logo{
-    color: rgb(255, 255, 0);
+    color:yellow;
     font-size:  35 px;  
     font-family: Arial;
     padding-left: 20 px;
